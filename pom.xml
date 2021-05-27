@@ -1,0 +1,25 @@
+<plugin>
+<groupId>org.apache.maven.plugins</groupId>
+<artifactId>maven-compiler-plugin</artifactId>
+<version>3.5.1</version>
+<configuration>
+    <annotationProcessorPaths>
+        <groupId>org.projectlombok</groupId>
+        <artifactId>lombok</artifactId>
+        <version>1.18.12</version>
+    </annotationProcessorPaths>
+</configuration>
+</plugin>
+
+<build>
+<plugins>
+    <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>3.6.3</version>
+        <configuration/>
+        <release>14</release>
+        <configuration/>
+    </plugin>
+</plugins>
+</build>
